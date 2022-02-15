@@ -12,6 +12,7 @@ import "./App.css"
 
 // ===== routes =====
 import Home from "./container/Home/index.jsx"
+import Blog from"./container/Blog/index.jsx"
 
 class App extends Component {
   render() {
@@ -22,7 +23,7 @@ class App extends Component {
           <Routes>
             <Route exact path="/" element= {<Home/>} />
             {/* <Route path="/shop" element= {<Shop/>} /> */}
-            {/* <Route path="/blog" element= {<Blog/>} /> */}
+            <Route path="/blog" element= {<Blog/>} />
             {/* <Route path="/calander" element= {<Calander/>} /> */}
             {/* <Route path="/socials" element= {<Socials/>} /> */}
             {/* <Route path="/404" element={<E404/>} /> */}

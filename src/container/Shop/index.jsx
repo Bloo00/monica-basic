@@ -3,7 +3,7 @@ import "./index.css";
 
 import Navbar from "../NavBar";
 
-class BlogPost extends Component{
+class Shop extends Component{
     constructor(props) {
         super(props);
     }
@@ -13,8 +13,8 @@ class BlogPost extends Component{
             <Navbar/>
             <div className="container">
                 <div className="BlogTitle">
-                    <h1>Blog</h1>
-                    <h4>Bloo's latest news about miss monicas evil and nefarious deeds</h4>
+                    <h1>Shop</h1>
+                    <h4>Bloo's latest news about miss monetray exppoits</h4>
                 </div>
 
                 <div className="meat">
@@ -26,4 +26,4 @@ class BlogPost extends Component{
     }
 }
 
-export default BlogPost;
+export default Shop;

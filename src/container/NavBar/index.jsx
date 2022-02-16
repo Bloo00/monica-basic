@@ -13,11 +13,11 @@ class Navbar extends Component {
                 <div className="Navbar">
                     <div className="Logo"></div>
                     <div className="routes">
-                        <a href="./" className="home">Home</a>
-                        <a href="./blog" className="blog">Blog</a>
-                        <a href="./calender" className="calender">Calander</a>
-                        <a href="./socials" className="socials">Socials</a>
-                        <a href="./shop" className="shop">Shop</a>
+                        <a href="/" className="home">Home</a>
+                        <a href="/blog" className="blog">Blog</a>
+                        <a href="/calender" className="calender">Calander</a>
+                        <a href="/socials" className="socials">Socials</a>
+                        <a href="/shop" className="shop">Shop</a>
                     </div>
                 </div>
             </>

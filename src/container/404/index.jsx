@@ -3,7 +3,7 @@ import "./index.css";
 
 import Navbar from "../NavBar";
 
-class Home extends Component{
+class E404 extends Component{
     constructor(props) {
         super(props);
     }
@@ -11,13 +11,12 @@ class Home extends Component{
         return(
             <>
             <Navbar/>
-            <div className="meat">
-                {/* i want embeded videos here */}
-                <h1>you are home rn</h1>
+            <div className="404">
+                <h1>Error 404 page not found</h1>
             </div>
             </>
         )
     }
 }
 
-export default Home;
+export default E404;

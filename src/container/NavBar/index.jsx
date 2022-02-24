@@ -16,7 +16,7 @@ class Navbar extends Component {
                         <a href="/" className="home">Home</a>
                         <a href="/blog" className="blog">Blog</a>
                         <a href="/calender" className="calender">Calander</a>
-                        <a href="/socials" className="socials">Socials</a>
+                        <a href="https://wlo.link/@MissMonica" className="socials">Socials</a>
                         <a href="https://missmonica.creator-spring.com/" className="shop">Shop</a>
                     </div>
                 </div>

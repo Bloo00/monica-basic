@@ -2,8 +2,10 @@ import React, { Component } from "react";
 import "./index.css";
 
 import Navbar from "../NavBar";
+import Youtube from "./youtube";
+import Twitch from "./twitch";
 
-class Home extends Component{
+export default class Home extends Component{
     constructor(props) {
         super(props);
     }
@@ -12,12 +14,19 @@ class Home extends Component{
             <>
             <Navbar/>
             <div className="meat">
-                {/* i want embeded videos here */}
-                <h1>you are home rn</h1>
+                <div className="upper">
+                    <div className="youtube"></div>
+                    <div className="about">
+                        <div className="aboutTitle"></div>
+                        <div className="summary"></div>
+                        <div className="youtubeLink"></div>
+                    </div>
+                </div>
+                <div className="lower"></div>
+
             </div>
             </>
         )
     }
 }
 
-export default Home;

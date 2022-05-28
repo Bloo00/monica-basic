@@ -1,12 +1,9 @@
 * {
-    background-color: #CEEAEE;
+    background-color: #e1f7fa;
+    font-family: 'Courgette', cursive;
 }
 
 .container {
     display: grid;
     justify-content: center;
-}
-
-img {
-
 }

@@ -1,5 +1,11 @@
 import React, { Component } from "react";
-import "./home.css";
+
+// =====
+import '../Style/style.css'
+
+
+// ====== components
+import Nav from "../Nav/nav";
 
 
 export default class Home extends Component{
@@ -10,7 +16,7 @@ export default class Home extends Component{
         return(
             <>
                 <div className="container">
-                {/* nav should be here */}
+                    <Nav/>
                 <div className="header">
                     <div className="header-words">
                         <div className="header-subtitle">Classic Monica meets your Eyebols~</div>
